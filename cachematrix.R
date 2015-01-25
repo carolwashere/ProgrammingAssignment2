@@ -1,15 +1,18 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions don't exactly do what is asked for. Unfortunately work ate up my time this week.
+## Each one performs some operations on a matrix.
 
-## Write a short comment describing this function
+## function makeCacheMatrix accepts a matrix as its parameter, multiplies it by 2, 
+## and prints the resulting matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
-
+x<-x*2
+x
 }
 
 
-## Write a short comment describing this function
+## function cacheSolve computes the inverse of the matrix passed to it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+   solve(x)     
 }
